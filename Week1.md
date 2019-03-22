@@ -1,7 +1,9 @@
 
 Tip: OpenGL 从内存往GPU加载纹理的时候，对于某些宽高像素字节数不是4的整数倍的图片，图片的显示会出现问题，比如倾斜或拼接。
 
-    解决方法：
+解决方法：
+    
+    
     ```
     glPixelStorei(GL_UNPACK_ALIGNMENT, 1);
     glTexImage2D(, , , , , , , , imageData);
