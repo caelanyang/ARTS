@@ -10,6 +10,7 @@
 
 原文文章：[Optimization tricks in Python: lists and tuples
 ](https://rushter.com/blog/python-lists-and-tuples/)
+
 翻译文章：[Python 内部的优化技巧: list 和 tuple](https://jiacheng.site/post/2019/03/23/python-list-tuple/)
 
 点评：文章分析了 Python 两个列表类型 tuple 与 list 的异同，并指出尽管 tuple 在编程中没有 list 使用的广泛，但是由于其不可变的特性，其在 Python 内部还是有大量使用的。并且，Python内部在内存分配与重用方面，针对两者各自特点都有一定的优化，最后谈论了 list 是如何 resize 的。
